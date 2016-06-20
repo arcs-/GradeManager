@@ -1,0 +1,102 @@
+<resources>
+
+    <!-- Default -->
+    <string name="app_name">Nota Gestore</string>
+    <string name="first_tit">Impostazioni</string>
+
+    <!-- Drawer -->
+    <string name="default_1">Matematica</string>
+    <string name="default_2">Tedesco</string>
+    <string name="default_3">Inglese</string>
+
+    <string name="home_title">Quadro</string>
+    <string name="feedback_title">Feedback</string>
+    <string name="settings_title">Impostazioni</string>
+    <string name="current_subject_title">Attuale Materia</string>
+
+    <!-- ContextMenu -->
+    <string name="options">Opzioni</string>
+    <string name="options_for">Opzioni per </string>
+    <string name="edit">Rimaneggiare</string>
+    <string name="delete">Cancellare</string>
+    <string name="deleted">Cancellato</string>
+
+    <!-- Dialog new subject -->
+    <string name="fach_name">Nome del materia</string>
+    <string name="farbe_name">Colore</string>
+    <string name="note_name">Voto</string>
+
+    <!-- AdapterGrade -->
+    <string name="semester_add">. semestre</string>
+    <string name="pick_color">Scegli un colore</string>
+
+    <!-- Fragement grade -->
+    <string name="gewichtung_name">Ponderazione</string>
+    <string name="bemerkung_name">Osservazione</string>
+    <string name="durchschnitt_pre">Toccare un semestre</string>
+    <string name="durchschnitt_name">Media</string>
+    <string name="add_subject">Aggiungere il materiale</string>
+    <string name="add_grade">Aggiungi une voto</string>
+    <string name="add">Aggiungere</string>
+    <string name="update">Modifica</string>
+    <string name="cancel">Interrompere</string>
+    <string name="Semester1">1. Semestre</string>
+    <string name="Semester2">2. Semestre</string>
+    <string name="error_grade_between_num">Il grado deve essere compresa tra lowest e highest</string>
+    <string name="error_grade_between_let">Grade non riconosciuto</string>
+    <string name="error_grade_between_pro">Si prega di solo cento tra 0 e 100</string>
+    <string name="error_grade_between_nNum">È necessario impostare un grado</string>
+
+    <!-- Settings -->
+    <string name="date_title">Seleziona Data</string>
+    <string name="date_set">OK</string>
+
+    <!-- Grades -->
+    <string name="grades_title">Gradi</string>
+    <string name="sys_tit">Sistema di grado</string>
+    <string name="sys_sum">Definire come entrare gradi</string>
+    <string name="num_like">Numero come (&#8230; 4,5,6 &#8230;)</string>
+    <string name="let_like">Lettera come (A, B, C &#8230;)</string>
+    <string name="pro_like">In procent  (90%)</string>
+
+    <string name="limit_tit">Limite di grado</string>
+    <string name="limit_sum">Set di grado più alto e più basso</string>
+    <string name="limit_low">Minore</string>
+    <string name="limit_high">Massimo</string>
+
+    <string name="def_weight_tit">Peso predefinito</string>
+    <string name="def_weight_sum">Impostare il peso predefinito</string>
+    <string name="text_default_weight">Il valore 0 è uguale a nessun valore, questo significa che è sempre necessario impostare il peso manualmente</string>
+
+    <string name="settings">Impostazioni semestre</string>
+    <string name="einstellungen_titel_Semester1">Semestre 1</string>
+    <string name="einstellungen_Semester1_summary">Inizio del primo semestre</string>
+    <string name="einstellungen_titel_Semester2">Semestre 2</string>
+    <string name="einstellungen_Semester2_summary">Inizio del secondo semestre</string>
+
+    <string name="einstellungen_titel2">Import -e esportazione</string>
+    <string name="einstellungen_title_Importieren">Importare</string>
+    <string name="einstellungen_Importieren">Nota importazione e materiale</string>
+    <string name="einstellungen_titel_Exportieren">Esportare</string>
+    <string name="einstellungen_Exportieren">Nota esportare e material</string>
+
+    <string name="einstellungen_titel3">Circa</string>
+    <string name="einstellungen_title_Verion">Versione</string>
+    <string name="einstellungen_Version">Sviluppato da Arcs</string>
+    <string name="einstellungen_titel_Website">Sito web</string>
+    <string name="einstellungen_titel_Feedback">Grazie a</string>
+    <string name="einstellungen_Feedback">Android Feedback</string>
+
+    <!-- Export / Import -->
+    <string name="error">Siamo spiacenti, si è verificato un errore</string>
+    <string name="saved_at">Salvato</string>
+    <string name="sure">Override gradi attuali?</string>
+    <string name="sure_comment">Questo avrà la precedenza su tutti i vostri gradi e Soggetti correnti</string>
+    <string name="done">Fatto</string>
+    <string name="not_found">File non trovato, assicurarsi che sia sulla vostra scheda sd interna</string>
+    <string name="corrupt">Siamo spiacenti, questo file è corrotto</string>
+    <string name="canceled">annullato</string>
+    <string name="error_subject_name_unique">Hai già questo argomento</string>
+    <string name="error_subject_name_empty">Il nome non può essere vuoto</string>
+
+</resources>

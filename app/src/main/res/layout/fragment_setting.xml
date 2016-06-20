@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <PreferenceCategory
+     android:title="@string/settings">
+
+     <Preference
+      android:key="semsester_eins"
+      android:title="@string/einstellungen_titel_Semester1"
+      android:summary="@string/einstellungen_Semester1_summary"
+      />
+
+
+     <Preference
+      android:key="semester_zwei"
+      android:title="@string/einstellungen_titel_Semester2"
+      android:summary="@string/einstellungen_Semester2_summary"
+      />
+
+  </PreferenceCategory>
+
+
+
+  <PreferenceCategory
+     android:title="@string/grades_title">
+
+     <ListPreference
+      android:key="clac_method"
+      android:title="@string/sys_tit"
+      android:summary="@string/sys_sum"
+      android:entries="@array/clacSpecies"
+      android:entryValues="@array/clacSpeciesValues"
+      android:defaultValue="num"
+     />
+
+	 <Preference
+      android:key="limit"
+      android:title="@string/limit_tit"
+      android:summary="@string/limit_sum"
+     />
+
+	 <Preference
+      android:key="default_weight"
+      android:title="@string/def_weight_tit"
+      android:summary="@string/def_weight_sum"
+     />
+
+  </PreferenceCategory>
+
+
+
+  <PreferenceCategory
+     android:title="@string/einstellungen_titel2">
+
+     <Preference
+       android:key="import_text"
+       android:title="@string/einstellungen_title_Importieren"
+       android:summary="@string/einstellungen_Importieren" />
+
+     <Preference
+       android:key="export_text"
+       android:title="@string/einstellungen_titel_Exportieren"
+       android:summary="@string/einstellungen_Exportieren" />
+
+  </PreferenceCategory>
+
+  <PreferenceCategory
+     android:title="@string/einstellungen_titel3">
+
+	<Preference
+ 		android:key="version_name"
+ 		android:title="@string/version"
+ 		android:summary="@string/einstellungen_Version"
+ 		android:enabled="false" />
+
+ 	<Preference
+   		 android:title="@string/einstellungen_titel_Website"
+   		 android:summary="@string/einstellungen_Website">
+
+    	<intent
+     		 android:action="android.intent.action.VIEW"
+     		 android:data="http://stillhart.biz"
+     		 />
+
+  	</Preference>
+
+  </PreferenceCategory>
+
+
+</PreferenceScreen>

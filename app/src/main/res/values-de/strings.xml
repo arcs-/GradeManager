@@ -1,0 +1,102 @@
+<resources>
+
+<!-- Default -->
+    <string name="app_name">Notenrechner</string>
+    <string name="first_tit">Einstellungen</string>
+
+<!-- Drawe -->
+    <string name="default_1">Mathematik</string>
+    <string name="default_2">Deutsch</string>
+    <string name="default_3">Englisch</string>
+
+    <string name="home_title">Übersicht</string>
+    <string name="feedback_title">Feedback</string>
+    <string name="settings_title">Einstellungen</string>
+    <string name="current_subject_title">Fächer</string>
+
+<!-- ContextMenu -->
+    <string name="options">Optionen</string>
+    <string name="options_for">Optionen für </string>
+    <string name="edit">Bearbeiten</string>
+    <string name="delete">Löschen</string>
+    <string name="deleted">gelöscht</string>
+
+<!-- Dialog new subject -->
+    <string name="fach_name">Name des Fachs</string>
+    <string name="farbe_name">Farbe</string>
+    <string name="note_name">Note</string>
+
+<!-- AdapterGrade -->
+    <string name="semester_add">. Semester</string>
+    <string name="pick_color">Wähle eine Farbe</string>
+
+<!-- Dialog new garde -->
+    <string name="gewichtung_name">Gewichtung</string>
+    <string name="bemerkung_name">Bemerkung</string>
+    <string name="durchschnitt_pre">Tippe auf ein Semester</string>
+    <string name="durchschnitt_name">Durchschnitt</string>
+    <string name="add_subject">Fach hinzufügen</string>
+    <string name="add_grade">Note hinzufügen</string>
+    <string name="add">Hinzufügen</string>
+    <string name="update">Bearbeiten</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="Semester1">1. Semester</string>
+    <string name="Semester2">2. Semester</string>
+    <string name="error_grade_between_num">Bitte nur Noten zwischen **lowest und **highest</string>
+    <string name="error_grade_between_let">Unbekannte Note</string>
+    <string name="error_grade_between_pro">Prozente bitte zwischen 0 und 100</string>
+    <string name="error_grade_between_nNum">Das Feld "Note" darf nicht leerr sein</string>
+
+<!-- Settings -->
+    <string name="grades_title">Noten</string>
+    <string name="sys_tit">Notensystem</string>
+    <string name="sys_sum">Wie willst du Noten eingeben?</string>
+    <string name="num_like">In Zahlen (&#8230; 4,5,6 &#8230;)</string>
+    <string name="let_like">In Buchstaben  (A, B, C &#8230;)</string>
+    <string name="pro_like">In Prozent  (90%)</string>
+
+    <string name="limit_tit">Noten Limit</string>
+    <string name="limit_sum">Definiere die höchste und tiefste Note</string>
+    <string name="limit_low">Tiefste</string>
+    <string name="limit_high">Höchste</string>
+
+    <string name="def_weight_tit">Standard Gewichtung</string>
+    <string name="def_weight_sum">Standard Wert für die Gewichtung</string>
+    <string name="text_default_weight">Bei 0 musst du selbst immer ein Wert eintragen</string>
+
+
+    <string name="settings">Semester einstellungen</string>
+    <string name="date_title">Wähle ein Datum</string>
+    <string name="date_set">OK</string>
+
+    <string name="einstellungen_titel_Semester1">Start des ersten Semsters</string>
+    <string name="einstellungen_Semester1_summary">Start des ersten Semesters</string>
+    <string name="einstellungen_titel_Semester2">Start des zweiten Semesters</string>
+    <string name="einstellungen_Semester2_summary">Start des zweiten Semesters</string>
+
+    <string name="einstellungen_titel2">Import und Export</string>
+    <string name="einstellungen_title_Importieren">Importieren</string>
+    <string name="einstellungen_Importieren">Importiere Noten &amp; Fächer</string>
+    <string name="einstellungen_titel_Exportieren">Exportieren</string>
+    <string name="einstellungen_Exportieren">Exportier Noten &amp; Fächer</string>
+
+    <string name="einstellungen_titel3">Über</string>
+    <string name="einstellungen_title_Verion">Version</string>
+    <string name="einstellungen_Version">Entwickelt von Arcs</string>
+    <string name="einstellungen_titel_Website">Webseite</string>
+    <string name="einstellungen_titel_Feedback">Vielen Dank an</string>
+    <string name="einstellungen_Feedback">Android Feedback</string>
+
+ <!-- Export / Import -->
+    <string name="error">Sorry, ein Fehler ist aufgetretten</string>
+    <string name="saved_at">Gespeichert</string>
+    <string name="sure">Bist du sicher?</string>
+    <string name="sure_comment">Dadurch werden alle deine Noten und Fächer überschrieben.</string>
+    <string name="done">Erledigt</string>
+    <string name="not_found">Datei nicht gefunden, stelle sicher dass sie auf der SD-Karte ist.</string>
+    <string name="corrupt">Entschuldigung, die Datei ist kaput.</string>
+    <string name="canceled">Abgebrochen</string>
+    <string name="error_subject_name_empty">Der Name darf nicht leer sein</string>
+    <string name="error_subject_name_unique">Dieses Fach hast du bereits</string>
+
+</resources>

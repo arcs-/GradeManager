@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="clacSpecies">
+        <item name="num">@string/num_like</item>
+        <item name="let">@string/let_like</item>
+        <item name="proz">@string/pro_like</item>
+    </string-array>
+    
+    <string-array name="clacSpeciesValues" translatable="false">
+        <item name="num">0</item>
+        <item name="let">1</item>
+        <item name="pro">2</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,108 @@
+<resources>
+
+<!-- Default -->
+    <string name="app_name">Grade Manager</string>
+	<string name="version" translatable="false">Version: 1.4</string>
+	
+	<string name="minus" translatable="false">-</string>
+    <string name="drawer_open" translatable="false">Open drawer</string>
+    <string name="drawer_close" translatable="false">Close drawer</string>
+
+    <string name="first_tit">Set your Settings</string>
+	
+<!-- Drawer -->
+	<string name="default_1">Math</string>
+	<string name="default_2">History</string>
+	<string name="default_3">English</string>
+
+	<string name="home_title">Overview</string>
+	<string name="settings_title">Settings</string>
+	<string name="current_subject_title">Subjects</string>
+	
+<!-- ContextMenu -->
+	<string name="options">Options</string>
+	<string name="options_for">Options for </string>
+	<string name="edit">Edit</string>
+	<string name="delete">Delete</string>
+	<string name="deleted">Deleted</string>
+	
+<!-- Dialog new subject -->
+	<string name="fach_name">Name of subject</string>
+	<string name="farbe_name">Color</string>
+	<string name="note_name">Grade</string>
+	<string name="error_subject_name_empty">The name may not be empty</string>
+	<string name="error_subject_name_unique">You already have this subject</string>
+
+<!-- AdapterGrade -->
+	<string name="semester_add">. semester</string>
+	<string name="pick_color">Pick a color</string>
+	
+<!-- Fragment grade -->
+	<string name="gewichtung_name">Weight</string>
+	<string name="bemerkung_name">Comment</string>
+	<string name="durchschnitt_pre">Touch a semester</string>
+	<string name="durchschnitt_name">Average</string>
+	<string name="add_subject">Add subject</string>
+	<string name="add_grade">Add grade</string>
+	<string name="add">Add</string>
+	<string name="update">Edit</string>
+	<string name="cancel">Cancel</string>
+	<string name="Semester1">1. semester</string>
+	<string name="Semester2">2. semester</string>
+	<string name="error_grade_between_num">Grades should be between **lowest and **highest</string>
+    <string name="error_grade_between_let">Unrecognised Grade</string>
+    <string name="error_grade_between_pro">Please only percents between 0 and 100</string>
+    <string name="error_grade_between_nNum">You have to set a grade</string>
+
+<!-- Settings -->
+	<string name="date_title">Select Date</string>
+	<string name="date_set">OK</string>
+
+  <!-- Grades -->
+    <string name="grades_title">Grades</string>
+      <string name="sys_tit">Grade system</string>
+      <string name="sys_sum">Define how you want to enter grades</string>
+        <string name="num_like">Numbers  (&#8230; 4,5,6 &#8230;)</string>
+        <string name="let_like">Letters  (A, B, C &#8230;)</string>
+        <string name="pro_like">In percent  (90%)</string>
+
+     <string name="limit_tit">Grade Limit</string>
+      <string name="limit_sum">Set highest and lowest grade</string>
+      <string name="limit_low">Lowest</string>
+      <string name="limit_high">Highest</string>
+
+    <string name="def_weight_tit">Default weight</string>
+      <string name="def_weight_sum">Set the default weight</string>
+      <string name="text_default_weight">The value 0 is equal to no value, this means you always need to set the weight manually</string>
+
+	<string name="settings">Semester settings</string>
+	   <string name="einstellungen_titel_Semester1">Start semester 1</string>
+	      <string name="einstellungen_Semester1_summary">Start of the first semesters</string>
+	   <string name="einstellungen_titel_Semester2">Start semester 2</string>
+	      <string name="einstellungen_Semester2_summary">Start of the second semesters</string>
+	    
+    <string name="einstellungen_titel2">Import and export</string>
+       <string name="einstellungen_title_Importieren">Import</string>
+          <string name="einstellungen_Importieren">Import subjects and grades</string>
+	   <string name="einstellungen_titel_Exportieren">Export</string>
+          <string name="einstellungen_Exportieren">Export subjects and grades</string>
+          
+	<string name="einstellungen_titel3">About</string>
+       <string name="einstellungen_title_Verion">Version</string>
+          <string name="einstellungen_Version">Developed by Arcs</string>
+       <string name="einstellungen_titel_Website">Website</string>
+          <string name="einstellungen_Website" translatable="false">stillhart.biz</string>
+	   <string name="einstellungen_titel_Feedback">Many thanks to</string>
+          <string name="einstellungen_Feedback">Android Feedback</string>
+        
+<!-- Export / Import -->
+	<string name="error">Sorry, an error occurred</string>
+	<string name="saved_at">saved</string>
+	<string name="sure">Override current Grades?</string>
+		<string name="sure_comment">This will override all your current Grades and Subjects</string>
+	<string name="done">Done</string>
+	<string name="not_found">File not found, make sure it\'s on your internal sd card</string>
+	<string name="corrupt">Sorry, this file is corrupt</string>
+    <string name="canceled">Canceled</string>
+
+</resources>
